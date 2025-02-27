@@ -46,15 +46,18 @@ body{
     background-color: white;
     font-family: "Inter";
 }
+
 .cabecalho{
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
 .logo{
     margin-right: 40px;
 }
+
 .link-menu{
     font-size: 16px;
     line-height: 23px;
@@ -63,22 +66,26 @@ body{
     text-decoration: none;
     margin-right: 40px;
 }
+
 .ativo{
     font-weight: bold;
     color: #F8F9FA;
 }
+
 .menu{
     padding-top: 17px;
     padding-bottom: 17px;
     display: flex;
     align-items: center;
 }
+
 .pesquisa{
     width: 350px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
+
 .campo-texto{
     font-weight: normal;
     font-size: 15px;
@@ -87,6 +94,7 @@ body{
     padding-bottom: 6.5px;
     padding-left: 15px;
 }
+
 .botao{
     background-color: transparent;
     border: 1px solid #fff;
@@ -97,29 +105,33 @@ body{
     padding-bottom: 10px;
     width: 80px;
     text-align: center;
-    margin-left: 16px;
-    
+    margin-left: 16px;  
 }
+
 .imagem-banner{
     width: 100%;
 }
+
 .categorias{
     width: 1110px;
     margin-left:auto;
     margin-right: auto;
     margin-top: 72px;
 }
+
 .titulo{
     font-weight: 500;
     font-size: 32px;
     text-align: center;
 }
+
 .menu-categorias{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 32px;
 }
+
 .texto-categoria{
     text-align: center;
     background-color: black;
@@ -135,4 +147,63 @@ body{
     margin: 0;
     padding: 0;
     text-decoration: none;
+}
+
+.produtos{
+    width: 1110px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 48px;
+}
+
+.lista-produtos{
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item-produto{
+    width: 350px;
+    border: 1px solid rgba(0,0,0,13%);
+    margin-bottom: 30px;
+}
+
+.titulo-produto{
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23px;
+}
+
+.descricao-produto{
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 16px;
+    line-height: 20px;
+}
+
+.preco-produto{
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23px;
+}
+
+.botao-produto{
+    margin-left: 16px;
+    background-color: #9353FF;
+    margin: 9px 16px;
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    margin-bottom: 16px;
 }
